@@ -29,18 +29,16 @@ I want to click on a title to see the full Diary Entry
 ## Domain model:
 |Nouns  |Property or owner of property  |
 |:---   |----:                          |
-|       |                               |
-|       |                               |
+|Diary       | Owner                              |
+|Entry       | Diary                              |
+|Title       | Entry                              |
 
 |Actions|Owned by  |
 |:---   |----:                          |
-|       |                               |
-|       |                               |
-
-|Actions|Property owned or changed  |
-|:---   |----:                          |
-|       |                               |
-|       |                               |
+|Add a new entry       |Diary                               |
+|Give each entry an title       |Entry                               |
+|List entry titles      |Diary                                |
+|click on title to see entry      |Diary                                |
 
 ## Setting up the main database
 1. connect to psql
