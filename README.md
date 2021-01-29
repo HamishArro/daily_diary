@@ -26,6 +26,22 @@ I want to click on a title to see the full Diary Entry
 ```
 [ ]
 
+## Domain model:
+|Nouns  |Property or owner of property  |
+|:---   |----:                          |
+|       |                               |
+|       |                               |
+
+|Actions|Owned by  |
+|:---   |----:                          |
+|       |                               |
+|       |                               |
+
+|Actions|Property owned or changed  |
+|:---   |----:                          |
+|       |                               |
+|       |                               |
+
 ## Setting up the main database
 1. connect to psql
 
