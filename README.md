@@ -1,6 +1,6 @@
-#Diary
+# Diary
 
-##User stories:
+## User stories:
 ```
 As a user
 So that I can keep a daily diary
@@ -26,7 +26,7 @@ I want to click on a title to see the full Diary Entry
 ```
 [ ]
 
-##Setting up the main database
+## Setting up the main database
 1. connect to psql
 
 2. Create the database using the psql command CREATE DATABASE daily_diary;
@@ -35,7 +35,7 @@ I want to click on a title to see the full Diary Entry
 
 4. Run the query we have saved in the file 01_create_diary_table.sql
 
-##Setting up the test database
+## Setting up the test database
 1. connect to psql
 
 2. Create the database using the psql command CREATE DATABASE daily_diary_test;
